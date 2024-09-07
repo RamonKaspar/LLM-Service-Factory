@@ -49,7 +49,7 @@ hf_service = LLMServiceFactory.get_service(
 # You can also use the OpenAI provider or easily add a new one by extending the llm_interface.py base class
 ```
 
-## Making Requests
+### Making Requests
 
 Once you have the service instance, you can use it to make requests to the LLMs. Each service supports different request types like chat completions, JSON completions, tool usage, and even vision-related tasks.
 
